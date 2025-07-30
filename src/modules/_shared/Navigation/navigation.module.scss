@@ -1,8 +1,12 @@
 .nav {
   &_list {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 36px;
+
+    @include on-tablet {
+      flex-direction: row;
+    }
   }
 
   &_item {
