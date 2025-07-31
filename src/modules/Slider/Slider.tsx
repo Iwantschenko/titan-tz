@@ -11,22 +11,22 @@ const BANNERS_DATA: BannerType[] = [
     description:
       'your brokerage business will be up and running within the shortest time the industry have to offer.',
     bgIcon: '/icon-slider-1.svg',
-    mainIcon: '/icon-skider-bg-1.svg',
+    mainIcon: '/icon-slider-bg-1.svg',
   },
   {
     id: 1,
     title: 'Looking to open a brokerage?',
     description: 'Get your business plan ready with our experts.',
-    bgIcon: '/icon-slider-1.svg',
-    mainIcon: '/icon-skider-bg-1.svg',
+    bgIcon: '/icon-slider-2.svg',
+    mainIcon: '/icon-slider-bg-2.svg',
   },
   {
     id: 1,
     title: 'Are you an established company?',
     description:
       'Time to make changes and get better technological solution and pricing!',
-    bgIcon: '/icon-slider-1.svg',
-    mainIcon: '/icon-skider-bg-1.svg',
+    bgIcon: '/icon-slider-3.svg',
+    mainIcon: '/icon-slider-bg-3.svg',
   },
 ];
 
