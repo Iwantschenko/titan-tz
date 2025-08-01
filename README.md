@@ -33,13 +33,5 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/Iwantschenko/titan-tz.git
 cd titan-tz
-2. Install dependencies
-bash
-Копіювати
-Редагувати
 npm install
-3. Start the development server
-bash
-Копіювати
-Редагувати
 npm start
