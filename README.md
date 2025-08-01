@@ -1,5 +1,5 @@
 # Titan — Adaptive Landing Page
-Live version - [DEMO]([http://localhost:5173](https://titan-ba488.web.app))
+Live version: [https://titan-ba488.web.app](https://titan-ba488.web.app)
 **Titan** is a modern one-page landing project built with **React**, **TypeScript**, and **SCSS Modules**.  
 It demonstrates responsive layout, clean component architecture, and elegant UI animations — all designed with a **mobile-first approach**.
 
