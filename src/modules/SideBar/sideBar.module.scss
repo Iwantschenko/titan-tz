@@ -1,0 +1,54 @@
+.sideBar {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100dvh;
+  padding-inline: 32px;
+
+  background-color: var(--color-surface);
+
+  animation: fade-in 0.3s ease-in-out;
+
+  &_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: var(--header-height);
+  }
+
+  &_logo {
+    height: 30px;
+  }
+
+  &_iconClose {
+    cursor: pointer;
+
+    display: block;
+
+    width: 30px;
+    height: 30px;
+    border: none;
+
+    background-image: url('../../assets/icons/icon-close-grey.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 16px;
+
+    @include img-hover-scale;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

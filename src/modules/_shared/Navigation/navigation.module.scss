@@ -1,0 +1,59 @@
+.nav {
+  &_list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+    @include on-tablet {
+      flex-direction: row;
+    }
+  }
+
+  &_item {
+    position: relative;
+  }
+
+  &_link {
+    position: relative;
+
+    display: block;
+
+    height: var(--header-height);
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: var(--header-height);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+
+    &::after {
+      content: '';
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transform-origin: left;
+      transform: scaleX(0);
+
+      width: 100%;
+      height: 3px;
+
+      background: var(--color-text-secondary);
+
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.isActive {
+  position: relative;
+  color: var(--color-text-main);
+
+  &::after {
+    transform: scaleX(1);
+  }
+}
