@@ -1,12 +1,12 @@
 .slider {
   position: relative;
   overflow: hidden;
-  height: calc(100vh - var(--header-height));
+  height: calc(100dvh - var(--header-height));
 
   &_wrapper {
     display: flex;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.2s ease-out;
   }
 }
 
