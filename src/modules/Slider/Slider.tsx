@@ -14,14 +14,14 @@ const BANNERS_DATA: BannerType[] = [
     mainIcon: '/icon-slider-bg-1.svg',
   },
   {
-    id: 1,
+    id: 2,
     title: 'Looking to open a brokerage?',
     description: 'Get your business plan ready with our experts.',
     bgIcon: '/icon-slider-2.svg',
     mainIcon: '/icon-slider-bg-2.svg',
   },
   {
-    id: 1,
+    id: 3,
     title: 'Are you an established company?',
     description:
       'Time to make changes and get better technological solution and pricing!',
@@ -82,7 +82,7 @@ export const Slider = () => {
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
       >
         {BANNERS_DATA.map(banner => (
-          <Banner data={banner} />
+          <Banner key={banner.id} data={banner} />
         ))}
       </div>
 
